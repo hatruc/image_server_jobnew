@@ -1,3 +1,6 @@
+:root {
+  --gt2: url(gt-2.svg) no-repeat;
+}
 #form-cv {
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -170,7 +173,9 @@ div#box01 {
   color: #fff;
 }
 .head {
-  background: url(head.svg);
+  background: #d28c72;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 .innertext {
   margin: 0px;
@@ -698,10 +703,11 @@ div#sort_block {
   float: left;
   height: 22px;
   width: 22px;
+  background-position: top left;
 }
 #box02 .cum {
   padding: 20px;
-  background: url(cum-2.svg) no-repeat;
+  background: url(cum-1.svg) no-repeat;
 }
 #box02 .cum .cumicc2 {
   background: url(mtnn.svg) no-repeat;
@@ -753,7 +759,9 @@ div#sort_block {
 
 div#exp1 {
 }
-
+.cumiic2 {
+  background: url(mtnn.svg);
+}
 .ic1 .icf {
   background-position: center;
   background: url(date.svg) no-repeat;
@@ -761,9 +769,6 @@ div#exp1 {
   height: 23px;
 }
 
-.cumiic2 {
-  background: url(mtnn.svg);
-}
 .ic2 .icf {
   background: url(sex.svg) no-repeat;
   width: 23px;
@@ -824,7 +829,13 @@ div#exp1 {
 } */
 .exp-subtitle,
 .exp-content {
-  /* padding-left: 30px; */
+  width: 100%;
+}
+#box03 .edit {
+  display: none;
+}
+#block03 .exp-date {
+  display: none;
 }
 
 #block04 .exp-date {
