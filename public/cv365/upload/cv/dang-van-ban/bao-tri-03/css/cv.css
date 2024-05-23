@@ -122,9 +122,7 @@ p.skill-name input {
   float: left;
 }
 
-#cv-top h1 span {
-  ;
-}
+#cv-top h1 span {}
 
 #box-hvt {
   float: right;
