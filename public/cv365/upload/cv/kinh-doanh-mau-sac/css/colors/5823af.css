@@ -3,5 +3,60 @@ div#cv-boxtitle {
   color: #c3404e;
 }
 #form-cv {
-  background: url(../main-1.png);
+  background: url(main-2.png);
+}
+#cv-top h2 {
+  background-color: #c3404e;
+}
+.ic1 .icf {
+  background-position: center;
+  background: url(date-2.svg) no-repeat;
+  width: 23px;
+  height: 23px;
+}
+
+.ic2 .icf {
+  background: url(sex-2.svg) no-repeat;
+  width: 23px;
+  height: 23px;
+}
+
+.ic3 .icf {
+  background: url(phone-2.svg) no-repeat;
+  width: 23px;
+  height: 23px;
+}
+
+.ic4 .icf {
+  background: url(mail-2.svg) no-repeat;
+  width: 23px;
+  height: 21px;
+}
+
+.ic5 .icf {
+  background: url(add-2.svg) no-repeat;
+  width: 23px;
+  height: 23px;
+}
+.cumicc2 {
+  background: url(mtnn-2.svg) no-repeat !important;
+}
+
+.cumicc3 {
+  background: url(kn-2.svg) no-repeat !important;
+}
+.cumicc4 {
+  background: url(cc-2.svg) no-repeat !important;
+}
+.cumicc5 {
+  background: url(ntc-2.svg) no-repeat !important;
+}
+.cumicc6 {
+  background: url(st-2.svg) no-repeat !important;
+}
+.cumicc7 {
+  background: url(ntc-2.svg) no-repeat !important;
+}
+.head {
+  background: #e3858f;
 }
