@@ -1,0 +1,24 @@
+
+/* #form-cv .cv_page.height_page {
+  padding: 0;
+  background: url('./bg_page1.svg') no-repeat bottom;
+  background-size: contain;
+}
+
+#form-cv .cv_page.page_more {
+  background: url('./bg_page2.svg') no-repeat;
+  background-size: contain;
+
+} */
+#cv-main {
+  background-color: rgb(235,223,239);
+}
+
+.watermark_js {
+  background-color: rgb(148,148,191);
+  right: 0px;
+}
+
+#cvo-profile-avatar-wraper {
+  background: url('../bg_img1.svg') no-repeat top  ,url('../bg_img2.1.svg') no-repeat top right;
+}
