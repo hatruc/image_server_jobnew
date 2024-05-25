@@ -1,0 +1,59 @@
+#cv-content {
+    background-color: rgb(231, 211, 212);
+}
+#box02 .box-content {
+    color: #000;
+    padding: 10px;
+  }
+  
+#box02 .box-content::before {
+    content: "";
+    display: block;
+    flex: 1;
+    height: 30px;
+    background: url('../6.svg') no-repeat;
+  
+  }
+  
+  #box02 .box-content::after {
+    content: "";
+    display: block;
+    flex: 1;
+    height: 30px;
+    background: url('../6.svg') no-repeat;
+    margin-right: 8px;
+    transform: rotate(180deg);
+   
+}
+
+.ifo::after {
+    background-color: rgb(231, 211, 212)
+}
+
+#cv-content .ir .cvo-block {
+    border-bottom: 1px solid rgb(198,167,169);
+}
+.anh {
+    background: url('../bg_img.svg') no-repeat;
+    background-position: bottom;
+}
+
+  .ic1 {
+    background: url('../birthday.svg') no-repeat;
+  }
+
+  .ic2 {
+    background: url('../user.svg') no-repeat;
+  }
+
+  .ic3 {
+    background: url('../phone.svg') no-repeat;
+  }
+
+  .ic4 {
+    background: url('../mail.svg') no-repeat ;
+  }
+
+  .ic5 {
+    background: url('../address.svg') no-repeat;
+  }
