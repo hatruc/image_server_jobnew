@@ -1,12 +1,14 @@
-.cv_page.height_page {
-  padding: 0;
-  background: url('./bg_page1.3.svg') no-repeat;
+#cv-main {
+  background-color: rgb(205,215,231);
 }
 
-.cv_page.page_more.height_page {
-  background: url('./bg_page2.3.svg') no-repeat;
-
+.watermark_js {
+  background-color: rgb(133,157,185);
+  right: 0px;
 }
 #cvo-experience-blocktitle {
   color: rgb(205, 215, 231);
+}
+#cvo-profile-avatar-wraper {
+  background: url('./bg_img1.svg') no-repeat top  ,url('./bg_img2.3.svg') no-repeat top right;
 }
