@@ -358,6 +358,7 @@
    #cv-boxtitle.box-title, #cvo-experience-blocktitle.block-title{
     color: #603912;
     text-align: left;
+    margin-bottom: 10px;
   }
   #cv-profile-fullname, #cv-profile-job {
     color: #603912;
@@ -447,7 +448,7 @@
   div#prof {
     float: left;
     width: 100%;
-    padding: 15px 0px 0px 15px;
+    padding: 40px 0px 20px 30px;
   }
   
   #form-cv .icf1 {
