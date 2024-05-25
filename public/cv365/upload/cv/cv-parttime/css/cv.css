@@ -657,20 +657,20 @@
     padding: 10px, 20px, 10px, 20px;
     width: 95% !important;
   }  
-  
+
   #box04{
-    background: #FDE2D1 !important;
+    background: #FEF1E9!important;
     border-radius: 2rem 2rem 0 0 !important;
     padding: 20px 0 0 20px !important;
   }
 
   #box05 {
-    background: #FDE2D1 !important;
+    background:#FEF1E9 !important;
     padding: 20px 0 0 20px !important;
   }
 
   #box06 {
-    background: #FDE2D1 !important;
+    background:#FEF1E9 !important;
     border-radius: 0rem 0rem 2rem 2rem !important;
     padding: 20px 0 0 20px !important;
   }
