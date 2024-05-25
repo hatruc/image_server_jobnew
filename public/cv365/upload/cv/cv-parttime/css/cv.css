@@ -44,7 +44,7 @@
   }
   
   #cv-main {
-    text-align: justify;
+    text-align: left;
     margin: 0;
     padding: 0;
     position: relative;
@@ -93,7 +93,7 @@
   
   #cv-top {
     width: 100%;
-    height: 296px;
+    /* height: 296px; */
     background-image: url(hd.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -318,17 +318,21 @@
   }
   
   #cvo-profile-avatar-wraper .wimg {
-    width: 184px;
-    height: 186px;
+    width: 200px;
+    height: 200px;
     float: left;
-    display: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 10px solid #fff;
+    border-radius: 50%;
   }
   
   #cvo-profile-avatar-wraper img {
-    width: 164px;
-    height: 166px;
+    width: 100%;
+    height: 100%;
     float: left;
+    border-radius: 50%;
   }
   
   #cvo-profile .box-dm {
@@ -354,8 +358,13 @@
 
   }
 
-  #cv-profile-fullname, #cv-profile-job, #cv-boxtitle.box-title, #cvo-experience-blocktitle.block-title{
+   #cv-boxtitle.box-title, #cvo-experience-blocktitle.block-title{
     color: #603912;
+    text-align: left;
+  }
+  #cv-profile-fullname, #cv-profile-job {
+    color: #603912;
+    text-align: center;
   }
   
   #cvo-profile {
@@ -441,7 +450,7 @@
   div#prof {
     float: left;
     width: 100%;
-    padding: 15px 0px;
+    padding: 15px 0px 0px 15px;
   }
   
   #form-cv .icf1 {
@@ -454,9 +463,15 @@
     background: url(ic_01.png) no-repeat;
     background-position: left;
     background-size: 100% 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
   
   #form-cv .icf2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
     float: left;
     margin-bottom: 0;
     width: 25px;
@@ -478,9 +493,15 @@
     background: url(ic_03.png) no-repeat;
     background-position: left;
     background-size: 100% 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
   
   #form-cv .icf4 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
     float: left;
     margin-bottom: 0;
     width: 25px;
@@ -493,6 +514,9 @@
   }
   
   #form-cv .icf5 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
     float: left;
     margin-bottom: 0;
     width: 25px;
@@ -601,7 +625,7 @@
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     float: left;
     width: 100%;
     /*display: none;*/
@@ -651,6 +675,27 @@
     padding: 0px 5px;
   }
   
+  #block01{
+    background: #FDE2D1;
+    border-radius: 2rem;
+    padding: 10px, 20px, 10px, 20px;
+    width: 95% !important;
+  }
+
+  #box08 {
+    background: #FDE2D1;
+    border-radius: 2rem;  
+    z-index: 2;
+    height: 310px;
+    top: -303px;
+    width: 120% !important;
+    left: -20px;
+  }
+
+  #box07, #box06 {
+    z-index: 3;
+  }
+
   /*  #block01{
         background: url(bg_03.png)no-repeat;
         background-position: right top;
