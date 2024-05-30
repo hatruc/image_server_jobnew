@@ -1,28 +1,11 @@
-#cv-top .box-01 {
-    background:#fde2d1 !important;
-  }
-  
-  #block01 {
-    background: #fde2d1 !important;
-  }
-  
-  i {
+i {
     color: #603814!important;
   }
   
-  h3 {
-    color: #603814!important;
-  }
-  
-  
-  #box04{
-    background: #FEF1E9!important;
-  }
-  
-  #box05 {
-    background: #FEF1E9!important;
-  }
-  
-  #box06 {
-    background: #FEF1E9!important;
-  }
+#box03, #box04, #box05, #cv-top .box-01, #block01{
+  background:#fde2d1 !important;
+}
+
+#box-hvt h1 span, #cvo-experience-blocktitle{
+  color: #603814 !important;
+}
