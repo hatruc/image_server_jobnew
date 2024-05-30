@@ -8,6 +8,16 @@ div#cv-boxtitle {
 #cv-top h2 {
   background-color: #1d704a;
 }
+.cum {
+  background: url(cum-3.png) no-repeat;
+  background-position: left;
+  background-position-y: -4px;
+}
+#box03 .ski {
+  background: url(cum-3.png) no-repeat;
+  background-position: left;
+  background-position-y: -4px;
+}
 .ic1 .icf {
   background-position: center;
   background: url(date-3.svg) no-repeat;
@@ -40,23 +50,36 @@ div#cv-boxtitle {
 }
 .cumicc2 {
   background: url(mtnn-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
 
 .cumicc3 {
   background: url(kn-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
 .cumicc4 {
   background: url(cc-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
 .cumicc5 {
   background: url(ntc-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
 .cumicc6 {
   background: url(st-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
 .cumicc7 {
   background: url(ntc-3.svg) no-repeat !important;
+  background-position: left;
+  background-position-y: -4px;
 }
+
 .head {
   background: #598f76;
 }
