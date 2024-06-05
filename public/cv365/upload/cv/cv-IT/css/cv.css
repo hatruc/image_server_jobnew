@@ -10,7 +10,7 @@
 }
 .cv_page {
   background: url('./bg_footer.svg') ;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;
 
@@ -338,7 +338,7 @@ div#cv-right {
 }
 div#sort_block {
     padding: 10px;
-    padding-top: 100px;
+ 
     padding-left: 50px;
    
  
@@ -347,9 +347,7 @@ div#sort_block1 {
   padding: 10px;
   padding-top: 100px;
   padding-left: 50px;
-  background: url('./bar.svg') no-repeat;
-  background-size: 10px;
-  background-position: 35px 140px;
+
 
 }
 
@@ -517,7 +515,7 @@ div#sort_block1 {
     padding: 0;
     float: left;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -591,10 +589,65 @@ div#sort_block1 {
     display: none;
 }
 div#experience-table {
+    position: relative;
     padding-right: 10px;
+    padding-left: 10px;
     margin-left: 0;
-    padding: 7px 0px;
+    
 }
+
+#block01 #experience-table::before {
+  content: "";
+  position: absolute;
+  left: -10px; /* Align the bar to the left */
+  top: 0; /* Start from the top */
+  bottom: 0; /* Extend to the bottom */
+  width: 5px; /* Set the width of the bar */
+  background-color: #000;
+
+}
+
+
+#block01 #experience-table::after {
+  content: "";
+  position: absolute;
+  left: -12px; /* Align the square to the left */
+  top: 0; /* Position the square at the top */
+  width: 10px; /* Set the width of the square */
+  height: 10px; /* Set the height of the square */
+  background-color: #000; /* Set the background color of the square */
+}
+
+#block02 #experience-table::before {
+  content: "";
+  position: absolute;
+  left: -10px; /* Align the bar to the left */
+  top: 0; /* Start from the top */
+  bottom: 0; /* Extend to the bottom */
+  width: 5px; /* Set the width of the bar */
+  background-color: #000;
+
+}
+
+#block02 #experience-table::after {
+  content: "";
+  position: absolute;
+  left: -12px; /* Align the square to the left */
+  top: 0; /* Position the square at the top */
+  width: 10px; /* Set the width of the square */
+  height: 10px; /* Set the height of the square */
+  background-color: #000; /* Set the background color of the square */
+}
+
+#block02 .square-below {
+  position: absolute;
+  left: -12px; /* Đặt vị trí của hình vuông */
+  bottom: 0; /* Đặt hình vuông ở dưới */
+  width: 10px; /* Chiều rộng của hình vuông */
+  height: 10px; /* Chiều cao của hình vuông */
+  background-color: #000; /* Màu của hình vuông */
+}
+
 div#prof {
     padding: 10px 15px;
 }
@@ -615,6 +668,7 @@ div#cv-boxtitle {
     color: #333333;
     float: left;
     margin-top: 10px;
+    width: 100%;
     margin-left: 30px;
 }
 
@@ -631,9 +685,7 @@ div#cv-boxtitle {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.err_cv_content {
-  outline: none;
-}
+
 .icright1 {
     display: none;
 }

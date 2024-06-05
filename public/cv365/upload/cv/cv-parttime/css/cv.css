@@ -41,6 +41,7 @@
   padding: 0;
   margin: 0;
   margin-right: 20px;
+  top: 33vh;
 }
 
 #cv-main {
@@ -351,7 +352,6 @@ p.skill-name input {
 }
 
 #cv-right .block {
-  position: relative !important;
   padding: 0;
   margin: 0;
 }
@@ -545,9 +545,8 @@ div#cv-boxtitle {
 }
 
 div#box01 {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
+  position: absolute !important;
+  left: 120%
 }
 
 .footer {
@@ -573,19 +572,19 @@ div#sort_block {
   border-radius: 50%;
 }
 
-#box03 {
+#box04 {
   padding-left: 5px;
   width: 120%;
   background:#fde2d1 ;
   border-radius: 1rem 1rem 0 0;
 }
 
-#box04 {
+#box06 {
   padding-left: 5px;
   background:#fde2d1 ;
 }
 
-#box05 {
+#box07 {
   padding-left: 5px;
   background:#fde2d1 ;
   border-radius: 0 0 1rem 1rem;
@@ -604,7 +603,7 @@ div#sort_block {
   color: #603814;
 }
 
-#block01 {
+#box01 {
   background: #fde2d1 ;
   border-radius: 1rem;
 }
