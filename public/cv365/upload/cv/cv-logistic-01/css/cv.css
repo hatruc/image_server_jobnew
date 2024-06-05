@@ -21,7 +21,7 @@
   margin: 0;
   width: 100%;
   color: #000;
-  padding: 0;
+  padding: 10px;
   text-align: justify;
 }
 
@@ -38,7 +38,6 @@
   text-align: justify;
   float: left;
   position: relative;
-  z-index: 2;
   padding: 0 30px 0 15px;
   margin-left: 10px;
   /* margin: 0; */
@@ -96,13 +95,14 @@
 }
 
 #cv-main #cv-right .ir #sortable {
+  width: 100%;
   padding: 0;
   margin: 0;
   padding-top: 20px;
 }
 
 #cv-right .ir #sortable .block {
-  margin-top: 0 !important;
+  /* margin-top: 10px; */
   padding: 0;
   margin: 0;
   float: left;
@@ -113,6 +113,9 @@
 
 #cv-right .ir #sortable #box02 {
   padding-top: 0px;
+  background: var(--color2);
+  margin-bottom: 15px;
+  border-radius: 15px;
 }
 
 p.skill-name input {
@@ -143,8 +146,8 @@ p.skill-name input {
 #cv-top {
   width: 100%;
   float: left;
-  background: var(--top);
-  background-position: left 123px, 580px top;
+  background: url(main-1.png) no-repeat;
+  background-position: top;
 }
 
 .all {
@@ -329,7 +332,7 @@ div#box01 {
   width: 180px;
   height: 180px;
   border-radius: 99em;
-  border: solid #7173b6;
+  border: solid var(--color);
   padding: 5px;
   float: left;
 }
@@ -349,6 +352,7 @@ div#box01 {
   transform: translateX(-50%);
 }
 #cvo-profile {
+  width: 100%;
   float: left;
   display: block;
 }
@@ -500,7 +504,6 @@ div#prof {
 #cv-content .head #cvo-experience-blocktitle {
   color: #000;
   position: relative;
-  z-index: 990;
   padding: 5px 15px;
   background: var(--color2);
   border-radius: 24px;
@@ -545,6 +548,7 @@ div#prof {
 }
 
 div#experience-table {
+  width: 100%;
   float: left;
   border-radius: 10px;
 }
@@ -673,7 +677,6 @@ div#sort_block {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99;
   display: none;
 }
 
@@ -710,7 +713,6 @@ div#sort_block {
   display: block;
   position: absolute;
   font-size: 20px;
-  z-index: 99999;
 }
 
 #block03 h3 {
@@ -726,7 +728,6 @@ span.exp-subtitle {
   width: 50%;
   height: max-content;
   position: relative;
-  background: var(--doc);
   background-size: 2px 100%;
   background-position: 261px 0;
 }
@@ -745,7 +746,8 @@ span.exp-subtitle {
 }
 
 #block05 h3,
-#block05 .exp-content {
+#block05 .exp-subtitle,
+#block05 .exp-date {
   display: none;
 }
 
@@ -755,6 +757,7 @@ span.exp-subtitle {
 }
 
 #experience-table #exp1 {
+  width: 100%;
   margin: 0;
 }
 
@@ -775,6 +778,15 @@ span.exp-subtitle {
   font-weight: bold;
 }
 
+#block03 .exp-subtitle {
+  display: none;
+}
+#block04 .exp-date {
+  display: none;
+}
+#block04 .exp-subtitle {
+  display: none;
+}
 :root {
   --sex: url(sex.svg) no-repeat;
   --phone: url(phone.svg) no-repeat;
@@ -782,11 +794,7 @@ span.exp-subtitle {
   --email: url(mail.svg) no-repeat;
   --add: url(add.svg) no-repeat;
   --top: url(top-1.png) no-repeat, url(top-2.png) no-repeat;
-  --job: url(job1.png) no-repeat;
-  --skill: url(skill.png) no-repeat;
-  --kn: url(kn1-1.png) no-repeat, url(kn2-1.png) no-repeat;
-  --fake: url(fake1.png) no-repeat;
-  --doc: url(doc.png) no-repeat;
+
   --color: #7173b6;
   --color2: #d5cde6;
 }

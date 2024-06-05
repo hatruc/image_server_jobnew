@@ -9,9 +9,11 @@
   font-size: 14px;
   line-height: 24px;
   color: #000;
-  background: url(main-1.png) repeat-y;
+  /* background: url(main-1.png) repeat-y; */
 }
-
+.cv_page {
+  background: url(main-1.png) no-repeat;
+}
 #sortable .cvo-block .box-content {
   width: 100%;
   padding-bottom: 5px;
@@ -127,6 +129,7 @@ p.skill-name input {
 #cv-top {
   float: left;
   width: 100%;
+  min-height: 237px;
   position: relative;
   padding-top: 0px;
   background: url(bg_top1.png) no-repeat;
@@ -158,12 +161,9 @@ p.skill-name input {
   width: unset !important;
 }
 div#box01 {
-  /* float: right; */
   margin: 0 30px;
   width: 50%;
   margin-top: 50px;
-  /* padding-top: 30px; */
-  /* padding-bottom: 110px; */
 }
 
 #box-hvt {
@@ -234,11 +234,10 @@ div#box01 {
   margin: 0px;
   padding: 0px;
   color: #ffffff;
-  /* background: url(dot1.png) no-repeat; */
-  /* padding-left: 35px; */
-  /* margin-left: -5px; */
 }
-
+.exp-content {
+  width: 100%;
+}
 #cv-content #block02 .exp-content {
   margin: 0;
   padding: 0;
@@ -256,7 +255,6 @@ div#box01 {
 #cv-content p.h3 {
   margin: 0px;
   padding: 0px;
-  /* padding-left: 29px; */
 }
 
 #cv-content .cvo-block {
@@ -264,11 +262,22 @@ div#box01 {
   width: 100%;
   color: #ffffff;
 }
-
+#cv-content .ir {
+  width: 100%;
+}
 #cv-content .ir .cvo-block {
   padding: 0;
 }
+#block03 .exp-subtitle {
+  display: none;
+}
+#block04 .h3 {
+  display: none;
+}
 
+#block05 .h3 {
+  display: none;
+}
 .ctbx {
   padding-left: 10px;
   padding-right: 10px;
@@ -281,7 +290,6 @@ div#box01 {
 
 #cv-content #block02 h3 {
   font-weight: bold;
-  /* color: #000; */
   float: left;
   width: 100%;
   text-transform: unset;
@@ -310,13 +318,8 @@ div#box01 {
 }
 
 #cvo-profile-avatar-wraper {
-  /* width: 100%; */
-  /* padding: 0; */
-  /* margin: 0; */
   top: 4%;
   right: 11%;
-  /* float: left; */
-  /* display: table; */
   position: absolute;
   background: #ffffff;
   border: 10px solid #ffffff;
@@ -364,8 +367,17 @@ div#box01 {
   float: left;
   width: 100%;
 }
-
+.watermark_js {
+  background: url(wtm-1.png) no-repeat;
+}
+#block01 .h3 {
+  color: #ffffff;
+}
+#block02 .h3 {
+  color: #ffffff;
+}
 .bar-exp {
+  display: none;
   height: 11px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -426,7 +438,6 @@ div#box01 {
 
 div#prof {
   font-weight: 500;
-  /* float: right; */
   width: 100%;
   margin-left: 25px;
 }
@@ -473,7 +484,6 @@ div#prof {
 }
 
 #cv-content .head {
-  /* border-radius: 20px; */
   padding-left: 13px;
   margin: 0;
   height: 40px;
@@ -507,7 +517,6 @@ div#prof {
 }
 #experience-table .ctbx {
   margin-bottom: 10px;
-  /* background: url(line1.png) no-repeat; */
   background-position: 0 8px;
 }
 
@@ -550,7 +559,6 @@ div#experience-table {
   width: 100%;
   padding: 10px 25px 10px 0px;
   float: left;
-  /* color: #ffffff; */
 }
 
 div#cv-boxtitle {
@@ -570,11 +578,14 @@ div#cv-boxtitle {
 }
 
 .cum {
+  background: url(cum-1.png) no-repeat;
   padding: 0;
   margin: 0 auto;
   height: 40px;
-
   line-height: 40px;
+  background-position-y: -5px;
+  padding: 23px;
+  padding-bottom: 39px;
   text-align: left;
   display: flex;
   align-items: center;
@@ -585,7 +596,6 @@ div#sort_block {
   padding: 0;
   margin: 0;
   float: left;
-  /* padding-right: 20px; */
   padding-left: 25px;
 }
 
@@ -616,10 +626,6 @@ div#sort_block {
   font-family: Courier;
 }
 
-#page-cv {
-  /* box-shadow: 0 0 0.5cm rgb(0 0 0 / 50%); */
-}
-
 #prof .ic:nth-child(1),
 #prof .ic:nth-child(3) {
   width: 35%;
@@ -628,11 +634,6 @@ div#sort_block {
 
 #prof .ic:nth-child(2) {
   width: 30%;
-}
-
-#cv-content .cvo-block .head {
-  /* border-top: 2px solid; */
-  /* border-bottom: 2px solid; */
 }
 
 .ic1,
@@ -708,7 +709,9 @@ div#sort_block {
 }
 #box02 .cum {
   padding: 20px;
-  background: url(cum-1.svg) no-repeat;
+  background: url(cum-1.png) no-repeat;
+  background-position-y: -4px;
+  padding-bottom: 37px;
 }
 #box02 .cum .cumicc2 {
   background: url(mtnn.svg) no-repeat;
@@ -718,39 +721,30 @@ div#sort_block {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: url(bg_skill.png) no-repeat;
-  background-position: left;
-  /* padding-left: 40px; */
+  background: url(cum-1.png) no-repeat;
+  padding: 20px;
+  padding-bottom: 31px;
+  padding-left: 9px;
+  /* background-position: left; */
+  background-position-y: -4px;
+  height: 40px;
 }
 #box03 .ski .cumicc3 {
   background: url(kn.svg) no-repeat;
 }
-#box04 .cum {
-  background: url(prize.png) no-repeat;
-  background-position: left;
-}
+
 .cumicc4 {
   background: url(gt.svg) no-repeat;
 }
-#box05 .cum {
-  background: url(ccc.png) no-repeat;
-  background-position: left;
-}
+
 .cumicc5 {
   background: url(cc.svg) no-repeat;
-}
-#box06 .cum {
-  background: url(hobbies.png) no-repeat;
-  background-position: left;
 }
 
 .cumicc6 {
   background: url(st.svg) no-repeat;
 }
-#box07 .cum {
-  background: url(rp.png) no-repeat;
-  background-position: left;
-}
+
 .cumicc7 {
   background: url(ntc.svg) no-repeat;
 }
@@ -825,20 +819,21 @@ div#exp1 {
 .ic3 {
   width: 40%;
 }
-/* .page_cv p {
-  color: #ffffff;
-} */
-.exp-subtitle,
-.exp-content {
-  width: 100%;
+#block05 .exp-subtitle {
+  display: none;
 }
 #box03 .edit {
+  display: none;
+}
+.bar-exp {
   display: none;
 }
 #block03 .exp-date {
   display: none;
 }
-
+#form-cv {
+  background: url(main-1.png) no-repeat;
+}
 #block04 .exp-date {
   display: none;
 }
