@@ -2,33 +2,43 @@
 div#cv-boxtitle {
   color: #1d704a;
 }
+
 .cv_page {
-  background: url(main-3.png);
+  background-image: url(main-3.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
+
 #form-cv {
   background: url(main-3.png) no-repeat;
 }
+
 .watermark_js {
   background: url(wtm-3.png) no-repeat;
 }
+
 #box02 .cum {
   background: url(cum-3.png) no-repeat;
   background-position-y: -4px;
   padding-bottom: 37px;
 }
+
 #cv-top h2 {
   background-color: #1d704a;
 }
+
 .cum {
   background: url(cum-3.png) no-repeat;
   background-position: left;
   background-position-y: -4px;
 }
+
 #box03 .ski {
   background: url(cum-3.png) no-repeat;
   background-position: left;
   background-position-y: -4px;
 }
+
 .ic1 .icf {
   background-position: center;
   background: url(date-3.svg) no-repeat;
@@ -59,6 +69,7 @@ div#cv-boxtitle {
   width: 23px;
   height: 23px;
 }
+
 .cumicc2 {
   background: url(mtnn-3.svg) no-repeat !important;
   background-position: left;
@@ -70,21 +81,25 @@ div#cv-boxtitle {
   background-position: left;
   background-position-y: -4px;
 }
+
 .cumicc4 {
   background: url(cc-3.svg) no-repeat !important;
   background-position: left;
   background-position-y: -4px;
 }
+
 .cumicc5 {
   background: url(ntc-3.svg) no-repeat !important;
   background-position: left;
   background-position-y: -4px;
 }
+
 .cumicc6 {
   background: url(st-3.svg) no-repeat !important;
   background-position: left;
   background-position-y: -4px;
 }
+
 .cumicc7 {
   background: url(ntc-3.svg) no-repeat !important;
   background-position: left;
