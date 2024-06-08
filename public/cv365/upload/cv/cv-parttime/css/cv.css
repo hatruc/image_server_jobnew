@@ -690,3 +690,8 @@ i {
   align-items: center;
   justify-self: center;
 }
+
+.cum, .box-content {
+  position: relative;
+  z-index: 3;
+}
