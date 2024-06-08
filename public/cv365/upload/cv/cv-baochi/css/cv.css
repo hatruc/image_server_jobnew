@@ -453,6 +453,7 @@ div#prof {
   padding: 15px 0px;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 18px;
 }
 
 span#cv-profile-address {
