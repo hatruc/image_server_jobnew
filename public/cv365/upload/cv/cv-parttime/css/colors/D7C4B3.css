@@ -2,14 +2,10 @@ i {
   color: #603814!important;
 }
 
-#box05,#box06, #box04, #box07 {
+#box01, #box05::before,#box06::before, #box04::before, #box07::before,.box-01::before {
   background: #EDE6DC!important;
 }
 
-#cv-top .box-01, #block01{
-  background: #D7C4B3 !important;
-}
-
-#box-hvt h1 span, #cvo-experience-blocktitle{
+#box-hvt h1 span, #cvo-experience-blocktitle, #cv-profile-fullname {
 color: #603814 !important;
 }
