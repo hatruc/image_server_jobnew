@@ -6,9 +6,11 @@
   background-color: rgb(133,157,185);
   right: 0px;
 }
-#cvo-experience-blocktitle {
-  color: rgb(205, 215, 231);
+#cv-content .head #cvo-experience-blocktitle {
+  color: rgb(133,158,186);
 }
+
+
 #cvo-profile-avatar-wraper {
   background: url('../bg_img1.svg') no-repeat top  ,url('../bg_img2.3.svg') no-repeat top right;
 }

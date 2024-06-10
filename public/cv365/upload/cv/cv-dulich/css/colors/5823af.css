@@ -1,0 +1,12 @@
+.cv_page.height_page {
+  padding: 0;
+  background: url('./bg_page1.2.svg') no-repeat;
+}
+
+.cv_page.page_more.height_page {
+  background: url('./bg_page2.2.svg') no-repeat;
+}
+
+#cvo-experience-blocktitle {
+  color: rgb(249, 235, 215);
+}

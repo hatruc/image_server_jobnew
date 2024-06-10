@@ -1,0 +1,12 @@
+#cv-top {
+  background: url(main-2.png) no-repeat;
+}
+#box01 {
+  background: url(banner-2.png) no-repeat;
+  background-position: right bottom;
+}
+
+:root {
+  --color2: #fde1cb;
+  --color: #d76703;
+}
