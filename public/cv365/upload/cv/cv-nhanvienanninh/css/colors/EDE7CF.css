@@ -1,0 +1,28 @@
+i {
+  color: #262261!important;
+}
+
+.cv_page {
+  background-image: url(mau3.png);
+}
+/* #box01, #box05, #box06, #box04, #box07{
+background:#fde2d1 !important;
+} */
+
+#cv-main #cv-right {
+  border-right: solid 2px #262261;
+}
+
+#box-hvt h1 span{
+  color: #262261 !important;
+}
+
+#box-hvt h2 span{
+  color: #262261 !important;
+}
+
+div#cv-boxtitle,
+#cvo-experience-blocktitle {
+  color: #262261;
+  border-bottom: solid 2px;
+}

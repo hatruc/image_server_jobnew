@@ -1,0 +1,21 @@
+i {
+    color: #00adee!important;
+  }
+  
+/* #box01, #box05, #box06, #box04, #box07{
+  background:#fde2d1 !important;
+} */
+
+#box-hvt h1 span{
+  color: #2b388f !important;
+}
+
+#box-hvt h2 span{
+  color: #1b75bb !important;
+}
+
+div#cv-boxtitle,
+#cvo-experience-blocktitle {
+  color: #00adee;
+  border-bottom: solid 2px;
+}
