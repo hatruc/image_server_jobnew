@@ -1,0 +1,68 @@
+#cv-top h1{
+  color: #5e75b8;
+}
+
+i {
+    color: #603814!important;
+  }
+
+#box05, #box06, #box04, #box07 {
+  /* background:#fde2d1 !important; */
+}
+
+#box03 #cv-boxtitle, 
+#box05 #cv-boxtitle, 
+#box07 #cv-boxtitle{
+  background-color: #bdcae8;
+  border: 0px;
+  border-radius: 8px;
+}
+
+#box05 .box-content, 
+#box07 .box-content {
+  border: solid 2px #000;
+  border-radius: 8px;
+}
+
+#box04 .box-content, 
+#box06 .box-content {
+  background-color: #bdcae8;
+  border: 0px;
+  border-radius: 8px;
+}
+
+#block01 .block-title,
+#block03 .block-title,
+#block05 .block-title {
+  border: solid 2px #000;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+#block01 #experience-table,
+#block03 #experience-table,
+#block05 #experience-table {
+  background-color: #bdcae8;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#block02 #cvo-experience-blocktitle,
+#block04 #cvo-experience-blocktitle {
+  background-color: #bdcae8;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#block02 #experience-table,
+#block04 #experience-table {
+  border: solid 2px #000;
+  padding: 9px;
+  border-radius: 8px;
+}
+
+#cvo-experience-blocktitle{
+  color: #000 !important;
+}
