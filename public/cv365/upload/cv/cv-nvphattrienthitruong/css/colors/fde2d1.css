@@ -1,0 +1,27 @@
+i {
+    color: #000 !important;
+  }
+
+.line {
+    border-top: solid 2px #acd2a4;
+}
+
+#cvo-profile-avatar-wraper {
+    border-right: solid 59px #acd2a4;
+}
+
+#box-hvt h1 span, #cvo-experience-blocktitle{
+  color: #000 !important;
+}
+
+span#cv-profile-address {
+  background-color: #74c462;
+}
+
+.line2.ui-sortable-handle {
+  border-right: solid 11px #618e8a;
+}
+
+.icel {
+  background-color: #74c462;
+}
