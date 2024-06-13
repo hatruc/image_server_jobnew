@@ -25,6 +25,7 @@
 
 #cvo-profile {
   display: block;
+  padding-top: 20px;
 }
 
 #cv-profile-fullname {
@@ -53,19 +54,19 @@
 }
 
 .box-01::before{
+    top: 0;
     content: "";
     background: #fde2d1;
     position: absolute;
     left: -61px;
     width: 108%;
-    height: 42%;
+    height: 150px;
 }
 
 .chu {
-  top: 80px;
-  position: relative;
-  float: right;
-  width: 65%;
+  position: relative;   float: right;
+  width: 60%;
+  top: 48px;
 }
 
 .inf {
@@ -131,9 +132,9 @@ p.skill-name input {
 
 #cv-top {
   width: 100%;
-  height: fit-content;
   position: relative;
   overflow: hidden;
+  display: grid;
 }
 
 .all {
@@ -161,9 +162,8 @@ p.skill-name input {
 
 #box-hvt {
   float: right;
-  width: 100%;
-  padding: 0;
-  margin-top: -20px;
+  width: 46%;
+  margin-top: 80px;
 }
 
 #cv-right .cvo-block .head div {
@@ -288,7 +288,6 @@ p.skill-name input {
   padding-left: 0;
   padding-right: 0;
   position: relative;
-  padding-right: 20px;
 }
 
 .ctbx:hover {
@@ -304,11 +303,14 @@ p.skill-name input {
 }
 
 #cvo-profile-avatar-wraper {
-  width: 27%;
+  left: 17px;
+    top: 34px;
+  width: 40%;
   float: left;
-  display: table;
-  padding-top: 43px;
-  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   position: relative;
 }
 
@@ -333,18 +335,15 @@ p.skill-name input {
 }
 
 #cvo-profile-avatar-wraper .wimg {
-  width: 184px;
-  height: 186px;
-  float: left;
-  display: unset;
+  width: 265px;
+  height: 265px;
   border: 10px solid #fff;
   border-radius: 50%;
 }
 
 #cvo-profile-avatar-wraper img {
-  width: 164px;
-  height: 166px;
-  float: left;
+  width: 250px;
+  height: 250px;
 }
 
 #cvo-profile .box-dm {
@@ -614,7 +613,7 @@ div#sort_block {
   background: #fde2d1 ;
   position: absolute;
   left: -61px;
-  width: 120%;
+  width: 385px;
   height: 100%;
   border-radius: 0 1rem 0 0;
 }
@@ -625,7 +624,7 @@ div#sort_block {
   background: #fde2d1 ;
   position: absolute;
   left: -61px;
-  width: 120%;
+  width: 385px;
   height: 100%;
 }
 
@@ -635,7 +634,7 @@ div#sort_block {
   background: #fde2d1 ;
   position: absolute;
   left: -61px;
-  width: 120%;
+  width: 385px;
   height: 100%;
 }
 
@@ -646,7 +645,7 @@ div#sort_block {
   background: #fde2d1 ;
   position: absolute;
   left: -61px;
-  width: 120%;
+  width: 385px;
   height: 100%;
   border-radius: 0 0 1rem 0;
 }
@@ -666,7 +665,6 @@ div#sort_block {
 #box01 {
   background: #fde2d1 ;
   border-radius: 1rem;
-  width: 40.9%;
   float: right;
   margin-right: 20px;
 }
